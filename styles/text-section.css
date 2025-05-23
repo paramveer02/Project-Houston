@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-section {
+.text {
   justify-items: auto;
   display: block;
   justify-content: center;
@@ -21,9 +21,17 @@ section {
   line-height: 1.5;
 }
 .div1 a {
-  color: blue;
+  color: #0000ff;
   text-decoration: none;
 }
-.div1 {
-  margin: 0px, 0px, 30px, 0px;
+.video {
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-items: center;
+}
+.vip {
+  font-size: x-small;
+
+  margin-left: -370px;
 }
