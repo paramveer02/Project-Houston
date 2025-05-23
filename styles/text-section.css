@@ -32,6 +32,37 @@
 }
 .vip {
   font-size: x-small;
-
   margin-left: -370px;
+}
+.boxwp {
+  width: 900px;
+  height: 900px;
+  background-color: #dd8bcb;
+  margin: auto;
+  position: relative;
+}
+.img1 {
+  /* width: 60%;
+  height: 30%;
+  object-fit: cover;
+
+  right: -30px;
+  float: right;
+  display: flex;
+  justify-content: flex-end; /* Pushes content to the right 
+  align-items: flex-start;*/
+  position: absolute;
+  top: 23%;
+  right: -300px;
+
+  width: 500px;
+  height: 500px;
+}
+.img2 {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+
+  width: 400px;
+  height: 300px;
 }
