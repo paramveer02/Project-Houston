@@ -17,6 +17,8 @@ section {
   position: relative;
   border: 0;
   unicode-bidi: isolate;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .div1 a {
   color: blue;
