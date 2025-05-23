@@ -1,0 +1,44 @@
+.image-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: nowrap; /* Ensures they sit side by side */
+}
+
+.image-left,
+.image-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-left img,
+.image-right img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Yellow background box behind second image */
+.yellow-bg {
+  background-color: #fef68a;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .image-grid {
+    flex-direction: column;
+  }
+}

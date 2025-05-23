@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+.primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 1rem;
+}
+.navlinks li,
+a {
+  text-decoration: inherit;
+}
