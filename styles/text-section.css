@@ -41,6 +41,7 @@
   margin: auto;
   position: relative;
   display: block;
+  max-width: 100%;
 }
 .img1 {
   position: absolute;
@@ -68,11 +69,15 @@
   list-style-type: none;
   text-decoration: none;
   color: #000000;
+  display: flex;
+  flex-wrap: wrap;
 }
 .comm a {
   list-style-type: none;
   text-decoration: none;
   color: #000000;
+  display: flex;
+  flex-wrap: wrap;
 }
 .edu li {
   display: block;
@@ -84,16 +89,23 @@
   list-style-type: none;
   text-decoration: none;
   color: #000000;
+  display: flex;
+  flex-wrap: wrap;
 }
 .mm li {
   display: block;
 }
 .foot {
-  text-align: center;
+  text-align: auto;
   font-size: small;
   color: #000000;
   margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+}
+.but {
+  color: white;
+  background-color: #0000ff;
 }
