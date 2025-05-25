@@ -1,58 +1,71 @@
-.image-section {
+.image-showcase {
   position: relative;
-  width: 100%;
+  padding: 100px 0;
+  background-color: #fff;
   overflow: hidden;
-  padding: 60px 0;
 }
 
-/* Yellow background behind both images */
-.yellow-bg {
+/* Yellow background box */
+.yellow-background {
   position: absolute;
-  top: 0;
-  left: 25%; /* adjust to control how much it overlaps the left image */
-  width: 100%;
-  height: 100%;
-  background-color: #fef68a;
-  z-index: 1;
+  top: 40px;
+  left: 20%;
+  width: 60%;
+  height: 80%;
+  background-color: #f9c834ef;
+  border: 1px solid #e4a124;
+  border-radius: 5px;
+  z-index: 0;
 }
 
-.image-grid {
+/* Image wrapper */
+.image-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
+  z-index: 1;
   max-width: 1200px;
   margin: 0 auto;
-  z-index: 2;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
-.image-left,
-.image-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Shared styling */
+.image-box {
+  border-radius: 5px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
-.image-left img,
-.image-right img {
+/* Custom sizes */
+.image-left-large {
+  max-width: 580px;
   width: 100%;
-  height: auto;
-  max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
+.image-right-small {
+  max-width: 440px;
+  width: 100%;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .image-grid {
+  .image-container {
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
   }
 
-  .image-left img,
-  .image-right img {
-    max-width: 100%;
+  .yellow-background {
+    width: 90%;
+    left: 5%;
+    top: 60px;
+    height: 90%;
+  }
+
+  .image-left-large,
+  .image-right-small {
+    max-width: 90%;
   }
 }
