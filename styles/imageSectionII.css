@@ -1,37 +1,73 @@
 .image-section2 {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 8vw;
-
+  display: block;
   position: relative;
+  padding: 8vw;
+  text-align: center;
 }
 .backgroundColor {
   background-color: #b6ffc0;
-
   width: 58vw;
-  height: 75vw;
+  height: 58vw;
   position: absolute;
   left: 0;
   top: 0;
 }
 .leftColumn {
   display: inline-block;
+  width: 30vw;
   vertical-align: middle;
   position: relative;
-  padding: 4rem;
   z-index: 1;
 }
+
 .rightColumn {
   display: inline-block;
   vertical-align: middle;
   position: relative;
   z-index: 1;
+  width: 30vw;
+  height: 30vw;
+  margin-left: 8vw;
+  overflow: hidden;
 }
 .gap {
   height: 3rem;
 }
-.leftColumn img,
+.leftColumn img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .rightColumn img {
   display: block;
-  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >=1880px) {
+  .backgroundColor {
+    background-color: #b6ffc0;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .leftColumn {
+    display: inline-block;
+    width: 500px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+  }
+  .rightColumn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    margin-left: 8vw;
+    overflow: hidden;
+  }
 }
