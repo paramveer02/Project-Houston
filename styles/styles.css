@@ -18,6 +18,12 @@
 }
 body {
   font-family: "Futura PT", sans-serif;
-  background-color: #fff;
+  background-color: #f3f3f3;
   line-height: 1.6;
+}
+main {
+  background-color: #ffffff;
+
+  max-width: 100rem;
+  margin: 0 auto;
 }
