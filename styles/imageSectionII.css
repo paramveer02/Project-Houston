@@ -1,0 +1,37 @@
+.image-section2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8vw;
+
+  position: relative;
+}
+.backgroundColor {
+  background-color: #b6ffc0;
+
+  width: 58vw;
+  height: 75vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.leftColumn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 4rem;
+  z-index: 1;
+}
+.rightColumn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+.gap {
+  height: 3rem;
+}
+.leftColumn img,
+.rightColumn img {
+  display: block;
+  max-width: 500px;
+}
