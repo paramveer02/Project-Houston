@@ -21,7 +21,7 @@ To ensure a clean and conflict-free collaboration, our team followed a structure
 
 ### Branching Structure:
 
-- `main` – Production-ready branch (final version)
+- `production` – Production-ready branch (final version)
 - `development` – Staging branch for merged features
 - `feature/your-name` – Individual branches for isolated development
 
