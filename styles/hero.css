@@ -20,6 +20,11 @@
   color: #ff4c4c; /* Ableton's red */
   font-size: 9rem;
   font-weight: 700;
-  font-family: sans-serif;
   letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+  }
 }
