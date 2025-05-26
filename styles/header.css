@@ -1,8 +1,12 @@
+header > * {
+  line-height: 1.2;
+  font-weight: 400;
+}
 header {
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.5rem;
-  width: 100vw;
+  padding: 1.25rem 1.75rem;
+  width: 100%;
   /* position: fixed; */
   /* z-index: 1; */
   background-color: white;
@@ -27,11 +31,13 @@ header {
   align-items: center;
   text-decoration: none;
   list-style: none;
-  gap: 1rem;
+  font-size: 1.25rem;
+  gap: 2rem;
 }
 .logo {
   display: block;
-  width: 40px;
+  width: 60px;
+  height: auto;
 }
 .navlinks li,
 a {
@@ -43,5 +49,10 @@ a {
 }
 .navbarAction {
   display: flex;
+  align-items: center;
   gap: 1rem;
+}
+.trial {
+  font-size: 1.25rem;
+  color: #0000ff;
 }
