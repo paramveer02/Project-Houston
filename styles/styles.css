@@ -8,8 +8,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Futura PT";
+  src: url("../assets/fonts/FuturaPTLight.ttf");
+  src: url("../assets/fonts/FuturaPTMedium.ttf");
+}
 body {
-  font-family: sans-serif;
+  font-family: "Futura PT", sans-serif;
   background-color: #fff;
   line-height: 1.6;
 }

@@ -1,15 +1,10 @@
 .card {
+  margin: 5rem auto;
   display: flex;
   max-width: 1000px;
   width: 100%;
   background: white;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(220, 220, 220, 0.036);
 }
 
 .image-section {
@@ -19,7 +14,8 @@
 }
 
 .image-section img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -31,7 +27,7 @@
 
 .content-section {
   flex: 1;
-  background: linear-gradient(135deg, #b1c5ff 0%, #a498ff 100%);
+  background: linear-gradient(135deg, #b1c5ff 0%, #d5b3ff 100%);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -67,7 +63,7 @@
 .cta-link {
   display: inline-flex;
   align-items: center;
-  color: #4f46e5;
+  color: #0000ff;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
@@ -82,7 +78,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #4f46e5;
+  background: #0000ff;
   transition: width 0.3s ease;
 }
 
@@ -91,7 +87,7 @@
 }
 
 .cta-link:hover {
-  color: #3730a3;
+  color: #0000ff;
   transform: translateX(5px);
 }
 
