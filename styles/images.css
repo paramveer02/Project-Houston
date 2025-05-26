@@ -1,8 +1,16 @@
 .image-showcase {
+  margin-bottom: 30px;
   position: relative;
-  padding: 100px 0;
+  padding: 40px 10px;
   background-color: #fff;
   overflow: hidden;
+}
+
+.img1:hover,
+.img2:hover,
+.image-box:hover {
+  transform: scale(1.03);
+  transition: transform 0.4s ease;
 }
 
 /* Yellow background box */
