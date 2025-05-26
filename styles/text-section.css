@@ -3,15 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.text {
-  max-width: 850px;
-  margin: 80px auto;
-  padding: 0 20px;
-  line-height: 1.6;
-}
 
 .text h1 {
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -19,26 +14,30 @@
 .text p {
   font-size: 1rem;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
+
 .div1 a {
   color: #0000ff;
   text-decoration: none;
 }
+
 .video {
   margin: auto;
   display: block;
   align-items: center;
   justify-items: center;
 }
+
 .vip {
   font-size: 0.75rem;
   margin-top: 10px;
   text-align: center;
 }
+
 .boxwp {
   position: relative;
-  padding: 80px 0;
+  padding: 60px 0 20px 0; /* reduced bottom padding */
   display: flex;
   justify-content: center;
   background-color: transparent;

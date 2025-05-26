@@ -56,3 +56,23 @@ a {
   font-size: 1.25rem;
   color: #0000ff;
 }
+
+.navlinks li a {
+  position: relative;
+  text-decoration: none;
+}
+
+.navlinks li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+.navlinks li a:hover::after {
+  width: 100%;
+}

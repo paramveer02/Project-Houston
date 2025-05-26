@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Houston</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- to force clear browser css cache -->
+    <link rel="stylesheet" href="styles/styles.css?v=1.0" />
   </head>
   <body>
     <main>
@@ -54,36 +55,78 @@
       </header>
 
       <!-- Hero Section – Param -->
-      <section class="hero">
-        <img
-          src="assets/images/hero.jpg"
-          alt="Ableton workspace"
-          class="hero-image"
-        />
-        <h1 class="hero-title">Ableton</h1>
+      <section class="fade-in">
+        <section class="hero">
+          <img
+            src="assets/images/hero.jpg"
+            alt="Ableton workspace"
+            class="hero-image"
+          />
+
+          <h1 class="hero-title">Ableton</h1>
+        </section>
+
+        <!-- Text Section – Hisham -->
+        <section class="text">
+          <h1 class="div1">
+            We make , <a href="#">Push</a>, <a href="#">Note</a>,
+            <a href="#">Move</a> and <a href="#">Link</a> – unique software and
+            hardware for music creation and performance.
+          </h1>
+          <p class="div2">
+            Ableton was founded in 1999 and released the first version of Live
+            in 2001. Our products are used by a community of dedicated
+            musicians, sound designers, and artists from across the world.
+          </p>
+        </section>
       </section>
 
-      <!-- Text Section – Hisham -->
-      <section class="text">
-        <h1 class="div1">
-          We make , <a href="#">Push</a>, <a href="#">Note</a>,
-          <a href="#">Move</a> and <a href="#">Link</a> – unique software and
-          hardware for music creation and performance.
-        </h1>
-        <p class="div2">
-          Ableton was founded in 1999 and released the first version of Live in
-          2001. Our products are used by a community of dedicated musicians,
-          sound designers, and artists from across the world.
-        </p>
+      <!-- Card Section - <Ciro>  -->
+      <div class="card">
+        <div class="image-section">
+          <img
+            src="https://ableton-production.imgix.net/about/photo-8.jpg?fit=crop&amp;crop=right"
+            alt="Team meeting in modern office space"
+          />
+        </div>
+        <div class="content-section">
+          <div class="content-text">
+            <h1 class="main-text">
+              We're really proud of the work we've done so far. But there's so
+              much more to come. If you'd like to be a part of it, please join
+              us.
+            </h1>
+            <a href="#" class="cta-link">
+              See latest jobs
+              <span class="arrow">›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section - 2 -- Ciro  -->
+
+      <section class="image-section2">
+        <div class="backgroundColor"></div>
+        <div class="leftColumn">
+          <img
+            src="https://ableton-production.imgix.net/about/photo-3.jpg?fit=crop"
+            alt=""
+          />
+          <div class="gap"></div>
+          <img
+            src="https://ableton-production.imgix.net/about/photo-4.jpg?fit=crop"
+            alt=""
+          />
+        </div>
+        <div class="rightColumn">
+          <img
+            src="https://ableton-production.imgix.net/about/photo-5.jpg?fit=crop"
+            alt=""
+          />
+        </div>
       </section>
 
-      <!-- Video Section - <Hisham>  -->
-
-      <!-- Image Section - 1 -- Param   -->
-
-      <!-- Image Section - 3 -- Hisham  -->
-
-      <!-- Footer Section - Param -->
       <!-- Image Section – Param -->
       <section class="image-showcase">
         <div class="yellow-background"></div>
@@ -184,17 +227,24 @@
       <section class="text">
         <h1 class="div1">We're passionate about what we do...</h1>
         <p class="div2">
-          We work hard to foster an environment where people can grow...
+          At Ableton, creativity fuels everything we build. Whether we're
+          designing new instruments or refining user experience, we do it with
+          heart, innovation, and deep musical intuition.
         </p>
         <p class="div2">
-          Alongside training programs... new technologies and production
-          techniques.
+          We invest in our people through internal programs, peer learning, and
+          cutting-edge technologies — because growth matters both personally and
+          professionally.
         </p>
       </section>
 
-      <!-- Text Section – Hisham -->
       <section class="text">
         <h1 class="div1">We want our employees to love it here...</h1>
+        <p class="div2">
+          From flexible work policies to a supportive relocation process, we go
+          the extra mile to ensure each team member feels welcome, inspired, and
+          empowered — right from day one.
+        </p>
         <p class="div2">
           If you're joining us in Berlin... relocation and paperwork assistance.
         </p>
@@ -203,17 +253,12 @@
       <!-- Card Section – Ciro -->
       <div class="card">
         <div class="image-section">
-          <img
-            src="https://ableton-production.imgix.net/about/photo-8.jpg?fit=crop&crop=right"
-            alt="Team meeting"
-          />
+          <img src="assets/images/hiring.jpg" alt="Team meeting" />
         </div>
         <div class="content-section">
           <div class="content-text">
             <h1 class="main-text">
-              We’re really proud of the work we’ve done so far. But there’s so
-              much more to come. If you’d like to be a part of it, please join
-              us.
+              We're really proud of the work we've done so far...
             </h1>
             <a href="#" class="cta-link"
               >See latest jobs <span class="arrow">›</span></a
